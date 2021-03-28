@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    max-width: 100%;
+    background-color: aqua;
+}
+
+#title {
+    text-align: center;
+    padding: 1em;
+    background-color: #eeeeee;
+    margin: 2em auto;
+}
+#img-div {
+    text-align: center;
+    margin: 0 auto;
+}
+#image {
+    display: block;
+    max-width: max-content;
+    margin: 0 auto;
+}
+#img-caption {
+    padding: 0 0 1em 0;
+}
+#tribute-info{
+    max-width: 60vw;
+    margin: 1em auto;
+    text-align: center;
+    font-size: 1.1em;
+}
+footer {
+    margin: 2em auto;
+    text-align: center;
+}
+@media (max-width: 600px) {
+    #image {
+        max-width: 100%;
+        height: auto;
+    }
+    #tribute-info {
+        text-align: left;
+        max-width: 95%;
+    }
+}
