@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Colorado Outdoors Survey</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Merienda&family=Playfair+Display:ital@1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <h1 id="title">Colorado Mountains Survey</h1>
+    <p id="description">
+      A short survey on activities in the Colorado Rocky Mountains.
+    </p>
+    <form action="" method="get" id="survey-form">
+      <!-- Personal Info Start -->
+      <div id="personal-info">
+        <label for="name" id="name-label">Name</label><br />
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Paula Abdul"
+          required
+        /><br /><br />
+        <label for="email" id="email-label">Email</label><br />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="pabdul@americanidol.com"
+          required
+        /><br /><br />
+        <label for="number" id="number-label">Age (optional)</label><br />
+        <input
+          type="number"
+          name="number"
+          id="number"
+          min="0"
+          max="199"
+          placeholder="58"
+        /><br /><br />
+      </div>
+      <!-- Personal Info End -->
+
+      <!-- Dropdown Menu Start -->
+      <div id="favorite">
+        <p>What is your outdoor activity?</p>
+        <select name="dropdown" id="dropdown">
+          <option value="hiking">Hiking</option>
+          <option value="climbing">Climbing</option>
+          <option value="rafting">Rafting / Kayaking</option>
+          <option value="skiing">Skiing / Snowboarding</option>
+          <option value="biking">Mountain Biking</option>
+          <option value="fishing">Fishing</option>
+          <option value="hunting">Hunting</option>
+          <option value="camping">Camping</option>
+          <option value="offroading">Offroading</option>
+        </select>
+      </div>
+      <!-- Dropdown Menu End -->
+
+      <!-- Radio Button Start -->
+      <div id="recommend">
+        <p id="recommend-text">
+          Would you recommend Colorado's mountains to a friend?
+        </p>
+        <div id="radio-buttons">
+          <label for="user-recommend">
+            <input type="radio" name="user-recommend" value="yes" />
+            Absolutely!
+          </label>
+          <label for="user-recommend">
+            <input type="radio" name="user-recommend" value="no" />
+            Mmm... no
+          </label>
+          <label for="user-recommend">
+            <input type="radio" name="user-recommend" value="maybe" />
+            Maybe...
+          </label>
+        </div>
+      </div>
+      <!-- Radio Button End -->
+
+      <!-- Checkbox Begin -->
+      <div id="checkbox-section">
+        <p>What should we work on?</p>
+        <div id="checkboxes">
+          <label for="improve">
+            <input type="checkbox" name="improve" value="forest-preservation" />
+            Preservation
+          </label>
+          <label for="improve">
+            <input type="checkbox" name="improve" value="trail-access" />
+            Trail Access
+          </label>
+          <label for="improve">
+            <input
+              type="checkbox"
+              name="improve"
+              value="wildlife-preservation"
+            />
+            Wildlife Preservation
+          </label>
+        </div>
+      </div>
+      <!-- Checkbox End -->
+
+      <!-- Textarea Comments Start -->
+      <div id="textarea-comment-section">
+        <p>Any comments you would like to add?</p>
+        <textarea
+          name="comments"
+          id="comments"
+          cols="30"
+          rows="10"
+          placeholder="Enter comments here..."
+        ></textarea>
+      </div>
+      <!-- Textarea Comments End -->
+      <button type="submit" id="submit">Submit</button>
+    </form>
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+  </body>
+</html>
