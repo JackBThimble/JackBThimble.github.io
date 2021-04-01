@@ -34,7 +34,7 @@ body {
 
 #survey-form {
     display: flex;
-    margin: 0 auto 3em auto;
+    margin: 0 auto 2em auto;
     flex-direction: column;
     width: 50vw;
     justify-content: space-between;

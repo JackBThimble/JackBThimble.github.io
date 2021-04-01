@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phil's Fidgets</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <div id="title-wrapper">
+        <img
+          src="https://static.thenounproject.com/png/3099013-200.png"
+          alt="fidget icon"
+          id="header-img"
+        />
+        <h2 id="title">Phil's Fidgets</h2>
+      </div>
+      <nav id="nav-bar">
+        <ul id="nav-list">
+          <li><a href="#products" class="nav-link">Products</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>The World's Finest Fidgets</h1>
+      <section id="products-section">
+        <iframe
+          id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/m5eq0TVxCKw?controls=0"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <h2 id="products">Our Products</h2>
+        <div id="product-cards">
+          <div class="product-card">
+            <p class="card-title"><em>Fidget Cube</em></p>
+            <img
+              src="images/5bbc516fa10e9-81642bdf24aa0fc533535faee4fcec0b.png"
+              alt="fidget cube product image"
+              class="card-img"
+            />
+          </div>
+          <div class="product-card">
+            <p class="card-title"><em>Fidget Spinner</em></p>
+            <img
+              src="images/fidget-spinner-fidgeting-toy-child-game-fidget-spinner-c51a79f4ffa896e57e53ea1fd9d5ffd0.png"
+              alt="fidget atom product image"
+              class="card-img"
+              id="fidget-atom-img"
+            />
+          </div>
+          <div class="product-card">
+            <p class="card-title"><em>Fidget Chain</em></p>
+            <img
+              src="images/fidget-cube-fidgeting-attention-deficit-hyperactivity-disorder-anxiety-child-child-39e9e57debdaa6793f98c88ca1238392.png"
+              alt="fidget chain product image"
+              class="card-img"
+            />
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <h2 id="about-title"><em>Why Phil's?</em></h2>
+        <p id="about-intro">
+          Phil has a passion for fidgeting. He was the kid that couldnt stand to
+          sit still in class, and had to push
+          <em><strong>every</strong></em> button in sight. Phil understands the
+          need to have your fingers at work constanstly, and its apparent in the
+          quality and design of Phil's Fidgets. We stand by our products with a
+          <em><strong>100% gaurantee</strong></em
+          >. If the quality isn't there, if the construction isn't durable
+          enough, or if these fidgets simply don't meet your fidgeting needs
+          then please send them back on us!
+        </p>
+        <div id="about-flex">
+          <div class="about-flex-item">
+            <img
+              class="about-photos"
+              src="images/Woman_fidgeting.jpg"
+              id="fidgeting-photo"
+              alt="woman using fidget cube at her desk"
+            />
+            <div class="flex-item-text-wrapper">
+              <p>
+                <em><strong>100% Satisfaction Guaranteed!</strong></em>
+              </p>
+              <br />
+              <p>
+                <em><strong>Orders shipped same day!</strong></em>
+              </p>
+              <br />
+            </div>
+          </div>
+          <div class="about-flex-item-1">
+            <img
+              style="order: 1"
+              class="about-photos"
+              src="images/spinner-blueprint.jpeg"
+              alt="fidget-spinner-cad-design"
+            />
+            <div class="flex-item-text-wrapper">
+              <p class="about-desc">
+                Our fidgets are world class in design, construction, and
+                aesthetics.
+              </p>
+            </div>
+          </div>
+          <div class="about-flex-item">
+            <img
+              src="images/fidget-spinner-spinning-in-hand.jpeg"
+              alt="fidget spinner spinning in hand"
+              class="about-photos"
+            />
+            <div class="flex-item-text-wrapper">
+              <p class="about-desc">Order today to experience:</p>
+              <ul id="about-desc-list">
+                <li>Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
+                <li>Lorem ipsum dolor sit amet centaur.</li>
+                <li>Lorem ipsum dolor sit amet world.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <h2 id="contact-header">Contact us for more information!</h2>
+        <form action="" method="get" id="form">
+          <label for="name">Name</label>
+          <input class="form-input" type="text" id="name" placeholder="J.S. Bach" required>
+          <label for="phone">Mobile Number (optional)</label>
+          <input class="form-input" type="tel" id="phone">
+          <label for="email">Email</label>
+          <input
+            class="form-input"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="jsbach@aol.com"
+            required
+          />
+          <textarea id="contact-textarea" placeholder="Enter text here...">Comments</textarea>
+          <input type="submit" value="Submit" id="submit" />
+        </form>
+      </section>
+      <footer>
+          <p id="footer-text">&copy; 2021 Phil's Fidgets</p>
+      </footer>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
