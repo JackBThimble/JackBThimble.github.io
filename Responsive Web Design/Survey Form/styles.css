@@ -20,6 +20,9 @@ body {
     font-size: 3em;
     text-align: center;
     padding-top: 1.5em;
+    color: white;
+    mix-blend-mode: exclusion;
+    filter: contrast(.5) grayscale(1);
 }
 
 #description {
