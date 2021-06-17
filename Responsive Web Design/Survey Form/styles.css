@@ -10,7 +10,7 @@ body {
     background-image: url(https://images.ctfassets.net/gxwgulxyxxy1/4zJnlt1q6ZeEg1I3DciAsf/d4b2e586369e4d90931c8c70a1416ba3/Hero-Lake_surrounded_by_snow_and_evergreen_trees_with_mountains_in_the_distance.jpg?fm=jpg&fl=progressive&w=1268&h=581&fit=fill&q=100);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     background-attachment: fixed;    
     
 }
