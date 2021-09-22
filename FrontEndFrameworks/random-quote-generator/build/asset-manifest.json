@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/FrontendFrameworks/random-quote-generator/static/css/main.624bfacf.chunk.css",
+    "main.js": "/FrontendFrameworks/random-quote-generator/static/js/main.18ef0807.chunk.js",
+    "main.js.map": "/FrontendFrameworks/random-quote-generator/static/js/main.18ef0807.chunk.js.map",
+    "runtime-main.js": "/FrontendFrameworks/random-quote-generator/static/js/runtime-main.f14f9c8e.js",
+    "runtime-main.js.map": "/FrontendFrameworks/random-quote-generator/static/js/runtime-main.f14f9c8e.js.map",
+    "static/css/2.c8a0ba45.chunk.css": "/FrontendFrameworks/random-quote-generator/static/css/2.c8a0ba45.chunk.css",
+    "static/js/2.e9bfff07.chunk.js": "/FrontendFrameworks/random-quote-generator/static/js/2.e9bfff07.chunk.js",
+    "static/js/2.e9bfff07.chunk.js.map": "/FrontendFrameworks/random-quote-generator/static/js/2.e9bfff07.chunk.js.map",
+    "static/js/3.a0bb7db1.chunk.js": "/FrontendFrameworks/random-quote-generator/static/js/3.a0bb7db1.chunk.js",
+    "static/js/3.a0bb7db1.chunk.js.map": "/FrontendFrameworks/random-quote-generator/static/js/3.a0bb7db1.chunk.js.map",
+    "index.html": "/FrontendFrameworks/random-quote-generator/index.html",
+    "static/css/2.c8a0ba45.chunk.css.map": "/FrontendFrameworks/random-quote-generator/static/css/2.c8a0ba45.chunk.css.map",
+    "static/css/main.624bfacf.chunk.css.map": "/FrontendFrameworks/random-quote-generator/static/css/main.624bfacf.chunk.css.map",
+    "static/js/2.e9bfff07.chunk.js.LICENSE.txt": "/FrontendFrameworks/random-quote-generator/static/js/2.e9bfff07.chunk.js.LICENSE.txt",
+    "static/media/300.css": "/FrontendFrameworks/random-quote-generator/static/media/roboto-vietnamese-300-normal.af9afdc1.woff2",
+    "static/media/400.css": "/FrontendFrameworks/random-quote-generator/static/media/roboto-vietnamese-400-normal.c0bec65d.woff2",
+    "static/media/500.css": "/FrontendFrameworks/random-quote-generator/static/media/roboto-vietnamese-500-normal.b8e494da.woff2",
+    "static/media/700.css": "/FrontendFrameworks/random-quote-generator/static/media/roboto-vietnamese-700-normal.3096f18a.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f14f9c8e.js",
+    "static/css/2.c8a0ba45.chunk.css",
+    "static/js/2.e9bfff07.chunk.js",
+    "static/css/main.624bfacf.chunk.css",
+    "static/js/main.18ef0807.chunk.js"
+  ]
+}
