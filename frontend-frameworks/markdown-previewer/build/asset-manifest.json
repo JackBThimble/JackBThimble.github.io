@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/frontend-frameworks/markdown-previewer/build/static/css/main.37e06caf.chunk.css",
+    "main.js": "/frontend-frameworks/markdown-previewer/build/static/js/main.1452f2f8.chunk.js",
+    "main.js.map": "/frontend-frameworks/markdown-previewer/build/static/js/main.1452f2f8.chunk.js.map",
+    "runtime-main.js": "/frontend-frameworks/markdown-previewer/build/static/js/runtime-main.19c8ef62.js",
+    "runtime-main.js.map": "/frontend-frameworks/markdown-previewer/build/static/js/runtime-main.19c8ef62.js.map",
+    "static/css/2.0ca91037.chunk.css": "/frontend-frameworks/markdown-previewer/build/static/css/2.0ca91037.chunk.css",
+    "static/js/2.920f687d.chunk.js": "/frontend-frameworks/markdown-previewer/build/static/js/2.920f687d.chunk.js",
+    "static/js/2.920f687d.chunk.js.map": "/frontend-frameworks/markdown-previewer/build/static/js/2.920f687d.chunk.js.map",
+    "static/js/3.ae08f8da.chunk.js": "/frontend-frameworks/markdown-previewer/build/static/js/3.ae08f8da.chunk.js",
+    "static/js/3.ae08f8da.chunk.js.map": "/frontend-frameworks/markdown-previewer/build/static/js/3.ae08f8da.chunk.js.map",
+    "index.html": "/frontend-frameworks/markdown-previewer/build/index.html",
+    "static/css/2.0ca91037.chunk.css.map": "/frontend-frameworks/markdown-previewer/build/static/css/2.0ca91037.chunk.css.map",
+    "static/css/main.37e06caf.chunk.css.map": "/frontend-frameworks/markdown-previewer/build/static/css/main.37e06caf.chunk.css.map",
+    "static/js/2.920f687d.chunk.js.LICENSE.txt": "/frontend-frameworks/markdown-previewer/build/static/js/2.920f687d.chunk.js.LICENSE.txt",
+    "static/media/Markdown.b0b84107.md": "/frontend-frameworks/markdown-previewer/build/static/media/Markdown.b0b84107.md",
+    "static/media/300.css": "/frontend-frameworks/markdown-previewer/build/static/media/roboto-vietnamese-300-normal.af9afdc1.woff2",
+    "static/media/400.css": "/frontend-frameworks/markdown-previewer/build/static/media/roboto-vietnamese-400-normal.c0bec65d.woff2",
+    "static/media/500.css": "/frontend-frameworks/markdown-previewer/build/static/media/roboto-vietnamese-500-normal.b8e494da.woff2",
+    "static/media/700.css": "/frontend-frameworks/markdown-previewer/build/static/media/roboto-vietnamese-700-normal.3096f18a.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19c8ef62.js",
+    "static/css/2.0ca91037.chunk.css",
+    "static/js/2.920f687d.chunk.js",
+    "static/css/main.37e06caf.chunk.css",
+    "static/js/main.1452f2f8.chunk.js"
+  ]
+}
